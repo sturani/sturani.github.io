@@ -1,0 +1,103 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.body_style
+{
+    background-image: url('purple_page_background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+.section_style
+{
+    color: rgba(1,1,1);
+    background-color: rgb(255, 255, 255,0.7);
+    float: left;
+    padding: 20px;
+    max-width: 70ch;
+    width: 60%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 2%;
+}
+
+.aside_style
+{
+    float: right;
+    background-color: grey;
+    padding:20px;
+    width: 35%;
+    margin-top: 20px;
+    /*height: 100%;*/
+    color:white;
+}
+
+.menu-bar{
+    background: grey;
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+}
+
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    width:80%;
+}
+.menu-bar ul li
+{
+    width: 100%;
+    margin: -10px;
+    padding: 5px;
+    font-size: 14px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #fff;
+    margin:20px;
+}
+.menu-bar, .fab
+{
+    margin: 8px;
+}
+.active, .menu-bar ul li:hover
+{
+    background: purple;
+    border-radius: 0px;
+}
+
+.section_style a:link {
+  color: rgb(112, 41, 99);
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.section_style ul li {
+    padding: 5px;
+    margin: 10px;
+}
+
+.aside_style a:link {
+  color: white;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.aside_style a:link:hover {
+  color: white;
+  font-weight: bold;
+  background-color: purple;
+  text-decoration: none;
+  padding=30px;
+}
